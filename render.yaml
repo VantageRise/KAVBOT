@@ -1,8 +1,0 @@
-# This file tells Render exactly how to build and run your bot.
-services:
-  - type: worker
-    name: airdrop-bot # You can change this name
-    env: python
-    pythonVersion: "3.11"
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
